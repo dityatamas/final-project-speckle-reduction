@@ -1,13 +1,13 @@
 import numpy as np
-import cv2 as cv
+import cv2
 from matplotlib import pyplot as plt
 import math
 from scipy import stats
 
-img = cv.imread('echocardiography_speckle_noise.jpg')
+img = cv2.imread('echocardiography_speckle_noise.jpg')
 
-#dst = cv.fastNlMeansDenoisingMulti(img, 2, 3, None, 4, 7, 21)
-dst = cv.fastNlMeansDenoising(img, None, 21, 7, 21)
+#dst = cv2.fastNlMeansDenoisingMulti(img, 2, 3, None, 4, 7, 21)
+dst = cv2.fastNlMeansDenoising(img, None, 21, 7, 21)
 
 def signaltonoise(a, axis=0, ddof=0):
     a = np.asanyarray(a)
