@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import math
 from scipy import stats
 
-img = cv2.imread('echocardiography_speckle_noise.jpg')
+img = cv2.imread('E:\pythoncode\Tugas-Akhir\Echocardiography\echocardiography_speckle_noise.jpg')
 
 #dst = cv2.fastNlMeansDenoisingMulti(img, 2, 3, None, 4, 7, 21)
 dst = cv2.fastNlMeansDenoising(img, None, 21, 7, 21)
@@ -26,7 +26,7 @@ snr = signaltonoise(dst)
 d = psnr(img, dst)
 print(d)
 print(snr)
-plt.text()
+#plt.text()
 #snr = stats.signaltonoise(dst, axis= None)
 
 plt.subplot(1,2,1), plt.imshow(img, cmap='gray')

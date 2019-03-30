@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread('echocardiography_speckle_noise.jpg')
+img = cv2.imread('E:\pythoncode\Tugas-Akhir\Echocardiography\echocardiography_speckle_noise.jpg')
 
 canny = cv2.Canny(img, 100, 200)
 sobelx = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=5)
