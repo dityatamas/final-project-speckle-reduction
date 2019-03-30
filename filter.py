@@ -24,6 +24,9 @@ def psnr(img, dst):
 
 snr = signaltonoise(dst)
 d = psnr(img, dst)
+print(d)
+print(snr)
+plt.text()
 #snr = stats.signaltonoise(dst, axis= None)
 
 plt.subplot(1,2,1), plt.imshow(img, cmap='gray')
