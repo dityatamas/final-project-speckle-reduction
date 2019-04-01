@@ -8,6 +8,6 @@ Tugas Akhir dengan judul :
 
 Pada Tugas Akhir ini menggunakan beberapa metode, diantaranya yaitu :
 
-1. *Log Contrast*
+1. *Log Transformation*
 2. *Hybrid Speckle Noise Reduction Anisotropic Diffusion (SRAD + RM)*
 3. *Canny Edge Detection*
