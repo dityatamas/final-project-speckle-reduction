@@ -58,4 +58,4 @@ def fom(img, img_gold_std, alpha=DEFAULT_ALPHA):
         np.count_nonzero(edges_img),
         np.count_nonzero(edges_gold))
 
-    return fom
+    return fom 
