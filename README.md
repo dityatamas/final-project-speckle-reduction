@@ -27,7 +27,9 @@
 
 ## Introduction ##
 
-This final project was created in order to completed my study courses. In this project, i am using 3 methods of image processing :
+My final project (thesis) to completed my study. The project is to reduce speckle noise found in echocardiographic images. The purposes of the project is for helping doctor/clinician to increasing the quality of the images for better view images of the heart. So, it reduces the risk of the doctor to false interpretation the images.
+
+In this project, i am using 3 methods of image processing :
 
 * Power Law Transform
 * Oriented Speckle Reducing Anisotropic Diffusion (OSRAD)
