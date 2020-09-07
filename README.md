@@ -35,4 +35,6 @@ In this project, i am using 3 methods of image processing :
 * Oriented Speckle Reducing Anisotropic Diffusion (OSRAD)
 * Relaxed Median Filter
 
-For OSRAD and Relaxed Median Filter are combined to be Hybrid Oriented Speckle Reducing Anisotropic Diffusion (HOSRAD).
+For OSRAD and Relaxed Median Filter are combined to be Hybrid Oriented Speckle Reducing Anisotropic Diffusion (HOSRAD). 
+
+In this project, i made python file for each methods to be used as a library.
