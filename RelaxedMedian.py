@@ -38,7 +38,7 @@ def rmf(src, lower, upper):
     for i in range(1, src.shape[0] - 1):
         for j in range(1, src.shape[1] - 1):
             if (medd[i, j] != lower_median[i, j]) and (medd[i, j] != uppper_median[i, j]):
-                medd[i, j] = med[i, j]
+                medd[i, j] = med[i, j] 
 
     imgout = medd
     imgout = imgout.astype("uint8")
