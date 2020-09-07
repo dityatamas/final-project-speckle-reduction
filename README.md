@@ -1,6 +1,6 @@
 # Speckle Noise Reduction and Image Enhancement of Echocardiographic Images for Early Detection of Heart Diseases #
 
-*Abstact :*
+*Abstract :*
 >The use of ultrasound imaging in medical diagnosis is well established due to its
 >non-invasiveness, low cost, capability of forming real time imaging, and continuing
 >improved image quality. However, in taking ultrasound images there is still a noise
