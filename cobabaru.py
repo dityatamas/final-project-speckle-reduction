@@ -118,4 +118,4 @@ while(vid.isOpened()):
 cap.release()
 #video.release()
 vid.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() 
