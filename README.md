@@ -25,11 +25,9 @@
 >method are proven to be able to improve the quality of heart images which from the
 >beginning had MSE and PSNR of 76,123 and 29.31.
 
-This final project was created in order to completed my study courses. 
-
 ## Introduction ##
 
-In this project, i am using 3 methods of image processing :
+This final project was created in order to completed my study courses. In this project, i am using 3 methods of image processing :
 
 * Power Law Transform
 * Oriented Speckle Reducing Anisotropic Diffusion (OSRAD)
@@ -37,4 +35,4 @@ In this project, i am using 3 methods of image processing :
 
 For OSRAD and Relaxed Median Filter are combined to be Hybrid Oriented Speckle Reducing Anisotropic Diffusion (HOSRAD). 
 
-In this project, i made python file for each methods to be used as a library.
+I made python file for each methods to be used as a library. I'm not yet build a GUI for this project.
