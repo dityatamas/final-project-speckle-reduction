@@ -4,7 +4,7 @@ from PIL import Image
 from RelaxedMedian import *
 from contrastenhancement import *
 from despeckling import *
-from timeit import default_timer as timer
+from timeit import default_timer as timer 
 
 #membuat video menjadi gambar per frame
 cap = cv2.VideoCapture("D:\Tugas Akhir Bismillah\Echocardiography\plax_25fps.mp4")
