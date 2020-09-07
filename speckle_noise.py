@@ -13,4 +13,4 @@ def speckle(img, prob) :
                     hasil[i-k][j-k] = 128+10*acak
             else :
                 hasil[i][j] = img[i][j]
-    return hasil
+    return hasil 
