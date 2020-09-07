@@ -277,4 +277,4 @@ def OSRAD(src, niter, gamma, kernel, option):
                 imgout[i, j] = imgout[i, j] + abc[i,j]
     # imgout = imgout.astype("uint8")
 
-    return imgout
+    return imgout 
