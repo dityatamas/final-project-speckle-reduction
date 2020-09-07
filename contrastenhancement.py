@@ -26,4 +26,4 @@ def gammacorrection(src, gamma):
     table = np.array([((i / 255.0) ** gamma) * 255
                       for i in range(0, 256)]).astype("uint8")
 
-    return cv2.LUT(src, table)
+    return cv2.LUT(src, table) 
