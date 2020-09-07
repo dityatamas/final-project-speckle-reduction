@@ -115,6 +115,6 @@ print("MSE awal dan baru : {0}".format(MSEawal)+" dan {0}".format(MSEbaru))
 print("PSNR awal dan baru :{0}".format(PSNRawal)+" dan {0}".format(PSNRbatu))
 
 plt.subplot(121),plt.imshow(imgout)
-plt.subplot(122),plt.imshow(img)
+plt.subplot(122),plt.imshow(img) 
 """
 plt.show()
