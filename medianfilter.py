@@ -26,6 +26,6 @@ def median_filter(src, filter_size):
             med = temp[nilai_tengah]
             data_final.itemset((i,j), med)
 
-    return data_final
+    return data_final 
 
 
